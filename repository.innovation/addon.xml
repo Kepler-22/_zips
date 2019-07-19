@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.innovation" name="[COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORblueviolet][B][I]Builds Repository[/I][/B][/COLOR]" version="1.7" provider-name="Kepler-22">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORblueviolet][B][I]Builds Repository[/I][/B][/COLOR]">
+            <dir>
+				<info compressed="false">https://raw.githubusercontent.com/Kepler-22/_zips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Kepler-22/_zips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Kepler-22/_zips/master/</datadir>
+            <hashes>false</hashes>
+			</dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLORwhite][I]Install all the latest InnovatiON Builds[/I][/COLOR]</summary>
+		<description lang="en">[COLORwhite][I]Official[/I][/COLOR] [COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORwhite][I]Repository[/I][/COLOR]</description>
+		<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>      
+    </assets>
+	</extension>
+</addon>
+			

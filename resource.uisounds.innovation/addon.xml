@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.innovation" version="1.0" name="[COLORffff0066][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORffff0066][B][I]UISounds[/I][/B][/COLOR]" provider-name="Kepler-22">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">UI Sounds for Innovation Builds</summary>
+    <description lang="en">UI Sounds for Innovation Builds</description>
+    <platform>all</platform>
+  </extension>
+</addon>

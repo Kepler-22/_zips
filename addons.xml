@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.innovation" name="[COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORblueviolet][B][I]Builds Repository[/I][/B][/COLOR]" version="1.7" provider-name="Kepler-22">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORblueviolet][B][I]Builds Repository[/I][/B][/COLOR]">
+            <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Kepler-22/_zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Kepler-22/_zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Kepler-22/_zips/master/</datadir>
+            <hashes>false</hashes>
+      </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLORwhite][B][I]Install all the latest InnovatiON Builds[/I][/B][/COLOR]</summary>
+    <description lang="en">[COLORwhite][I]Official[/I][/COLOR] [COLORblueviolet][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORwhite][I]Repository[I][/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>      
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.program.innovationwiz" name="[COLORffff0066][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORffff0066][B][I]Builds Wizard[/I][/B][/COLOR]" version="2.0" provider-name="Kepler-22">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLORwhite][B][I]InnovatiON Builds Wizard[/I][/B][/COLOR]</summary>
+    <description lang="en">[COLORffff0066][B][I]Innovation Builds Wizard[/I][/B][/COLOR] [COLORwhite][I]with maintenance features, selective add-on data saving, and automated build installs for Kodi 17.6 and 18.3 versions![/I][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="resource.uisounds.innovation" version="1.0" name="[COLORffff0066][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORffff0066][B][I]UISounds[/I][/B][/COLOR]" provider-name="Kepler-22">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">UI Sounds for Innovation Builds</summary>
+    <description lang="en">UI Sounds for Innovation Builds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2019.05.24"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="plugin.video.f4mTester" />
+   <import addon="script.module.slproxy" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil</summary>
+    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
+    <disclaimer lang="en">There can only be one.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="6.5.0" provider-name="anxdpanic, bromix">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+6.5.0
+[add] Video quality selection to Settings - MPEG-DASH
+[add] Limit to 30fps to Settings - MPEG-DASH
+[add] Uploads playlist to channel playlists
+[chg] Use search for channel videos instead of the Uploads playlist
+[fix] Signature cipher, some videos unplayable (ie. music videos)
+[fix] Playback monitoring using Python 3
+[fix] unescape html entities in title and plot
+[fix] handling of invalid grant when refreshing access token
+[fix] adding suggested videos when played from some widgets
+[fix] http server /client_ip using Python 3 |contrib: t6|
+[upd] refactor youtube_resolver.resolve
+[lang] el_gr strings |contrib: twilight0|
+[lang] es_es strings |contrib: roliverosc|
+[lang] ko_kr strings |contrib: parkmino|
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <summary lang="en_GB">Plugin for YouTube</summary>
+        <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+        <summary lang="he_IL">תוסף עבור YouTube</summary>
+        <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+        <summary lang="de_DE">Plugin für YouTube</summary>
+        <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl_PL">Wtyczka YouTube</summary>
+        <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+        <summary lang="hu_HU">YouTube kiegészítő</summary>
+        <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es_ES">Plugin para YouTube</summary>
+        <description lang="es_ES">YouTube es uno de los sitios web para compartir videos más grande del mundo.</description>
+        <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="es_MX">Plugin para YouTube</summary>
+        <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+        <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+        <summary lang="ru_RU">Видеодополнение YouTube</summary>
+        <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+        <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+        <summary lang="zh_CN">YouTube附加元件</summary>
+        <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+        <summary lang="zh_TW">YouTube附加元件</summary>
+        <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+        <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+        <summary lang="bg_BG">Добавка за YouTube</summary>
+        <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+        <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+        <summary lang="nb_NO">Tillegg for YouTube</summary>
+        <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+        <summary lang="ko_KR">유튜브 플러그인</summary>
+        <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=325740</forum>
+        <website>https://www.youtube.com</website>
+        <email>ytplugin at datanet dot ws</email>
+        <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.33" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+    </extension>
+</addon>
+
+<addon id="script.module.universalscrapers" name="Universal Scrapers" version="1.1.9" provider-name="Team Universal">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+        <import addon="repository.universalscrapers"/>
+  <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
+
+                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+            <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+            </description>
+            <license>GPL v3</license>
+            <source>https://</source>
+        </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.21.0"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
+    <platform>all</platform>
+    <language></language>
+    <license>Apache2</license>
+    <forum></forum>
+    <website>http://python-requests.org</website>
+    <source>https://github.com/Freso/script.module.requests</source>
+    <email>freso.dk AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.requests-cache"
+       name="requests-cache"
+       version="0.4.13"
+       provider-name="gedisony">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Persistent cache for requests library</summary>
+    <description lang="en_GB">Packed for KODI: requests-cache</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=316817</forum>
+    <website>https://pypi.python.org/pypi/requests-cache</website>
+    <source>https://github.com/gedisony/script.module.requests-cache</source>
+    <email>gedisony AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.xmltodict" name="xmltodict" version="0.11.0" provider-name="martinblech">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">xmltodict is a Python module that makes working with XML feel like you are working with JSON, as in this "spec".</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>https://github.com/martinblech/xmltodict</website>
+        <source>https://github.com/martinblech/xmltodict</source>
+        <forum></forum>
+    </extension>
+</addon>
+
+<addon id="script.module.metahandler" 
+     name="metahandler" 
+     version="3.0.3" 
+     provider-name="Eldorado, jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="script.module.myconnpy" version="1.1.6"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+</addons>
