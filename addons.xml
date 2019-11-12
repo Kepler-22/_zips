@@ -38,6 +38,21 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.innovationwiz" name="[COLORffff0066][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORffff0066][B][I]Builds Wizard[/I][/B][/COLOR]" version="2.1" provider-name="Kepler-22">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLORwhite][B][I]InnovatiON Builds Wizard[/I][/B][/COLOR]</summary>
+    <description lang="en">[COLORffff0066][B][I]Innovation Builds Wizard[/I][/B][/COLOR] [COLORwhite][I]with maintenance features, selective add-on data saving, and automated build installs for Kodi 17.6 and 18.3 versions![/I][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="resource.uisounds.innovation" version="1.0" name="[COLORffff0066][B][I]Innovati[/I][/B][/COLOR][COLORlime][I]ON[/I][/COLOR] [COLORffff0066][B][I]UISounds[/I][/B][/COLOR]" provider-name="Kepler-22">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
