@@ -1,4 +1,4 @@
-8
+9
 |||
 
 [COLORffff0066][B][I]Welcome to InnovatiON Builds Wizard![/I][/B][/COLOR]
@@ -6,12 +6,12 @@
 [B][COLOR crimson]*  [/COLOR][/B] InnovatiON Builds repository URL - [COLOR lime]https://kepler-22.github.io/[/COLOR]
 
 [COLOR lime]KODI 17.6 Krypton Builds[/COLOR]
-[B][COLOR crimson]*  [/COLOR][/B] [COLORyellow] COLOURS ADULT BUILD[/COLOR] - Version 1.1 - AEON SILVIO SKIN [COLORlime]212MB[/COLOR] 
-[B][COLOR crimson]*  [/COLOR][/B] [COLORyellow] COLOURS FAMILY BUILD[/COLOR] - Version 1.1 - AEON SILVIO SKIN [COLORlime]200MB[/COLOR]
+[B][COLOR crimson]*  [/COLOR][/B] [COLORyellow] COLOURS ADULT BUILD[/COLOR] - Version 2.0 - AEON SILVIO SKIN [COLORlime]198MB[/COLOR] 
+[B][COLOR crimson]*  [/COLOR][/B] [COLORyellow] COLOURS FAMILY BUILD[/COLOR] - Version 2.0 - AEON SILVIO SKIN [COLORlime]198MB[/COLOR]
 
 
 [COLOR lime]KODI 18 Leia Builds[/COLOR]
-[B][COLOR crimson]*  [/COLOR][/B] [COLORdodgerblue] COLOURS ADULT BUILD[/COLOR] - Version 1.2 - AEON SILVIO SKIN [COLORlime]236MB[/COLOR]
-[B][COLOR crimson]*  [/COLOR][/B] [COLORdodgerblue] COLOURS FAMILY BUILD[/COLOR] - Version 1.2 - AEON SILVIO SKIN [COLORlime]225MB[/COLOR]
+[B][COLOR crimson]*  [/COLOR][/B] [COLORdodgerblue] COLOURS ADULT BUILD[/COLOR] - Version 3.0 - AEON SILVIO SKIN [COLORlime]203MB[/COLOR]
+[B][COLOR crimson]*  [/COLOR][/B] [COLORdodgerblue] COLOURS FAMILY BUILD[/COLOR] - Version 3.0 - AEON SILVIO SKIN [COLORlime]203MB[/COLOR]
 
 [COLOR gold]Thanks for choosing my builds :)[/COLOR]
